@@ -251,17 +251,17 @@ header {
 header #header_section {
   width: 100%;
   background-color: #fff;
-  padding: 0 16px;
   margin: 0 auto;
 }
 
 header #header_section #header_img {
   max-width: 1170px;
+  margin:0 auto;
 }
 
 header #header_section #header_img img {
   font-size: 32px;
-  padding: 20px 16px 20px 0;
+  padding: 20px 16px;
 }
 
 header nav {
