@@ -1,0 +1,422 @@
+/*! destyle.css v2.0.2 | MIT License | https://github.com/nicolas-cusan/destyle.css */
+
+/* Reset box-model and set borders */
+/* ============================================ */
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  border-style: solid;
+  border-width: 0;
+}
+
+/* Document */
+/* ============================================ */
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ * 3. Remove gray overlay on links for iOS.
+ */
+
+html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+  -webkit-tap-highlight-color: transparent; /* 3*/
+}
+
+/* Sections */
+/* ============================================ */
+
+/**
+ * Remove the margin in all browsers.
+ */
+
+body {
+  margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+
+main {
+  display: block;
+}
+
+/* Vertical rhythm */
+/* ============================================ */
+
+p,
+table,
+blockquote,
+address,
+pre,
+iframe,
+form,
+figure,
+dl {
+  margin: 0;
+}
+
+/* Headings */
+/* ============================================ */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  line-height: inherit;
+  font-weight: inherit;
+  margin: 0;
+}
+
+/* Lists (enumeration) */
+/* ============================================ */
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* Lists (definition) */
+/* ============================================ */
+
+dt {
+  font-weight: bold;
+}
+
+dd {
+  margin-left: 0;
+}
+
+/* Grouping content */
+/* ============================================ */
+
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+
+hr {
+  box-sizing: content-box; /* 1 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
+  border-top-width: 1px;
+  margin: 0;
+  clear: both;
+  color: inherit;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+pre {
+  font-family: monospace, monospace; /* 1 */
+  font-size: inherit; /* 2 */
+}
+
+address {
+  font-style: inherit;
+}
+
+/* Text-level semantics */
+/* ============================================ */
+
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+
+a {
+  background-color: transparent;
+  text-decoration: none;
+  color: inherit;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+
+abbr[title] {
+  text-decoration: underline; /* 2 */
+  text-decoration: underline dotted; /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+code,
+kbd,
+samp {
+  font-family: monospace, monospace; /* 1 */
+  font-size: inherit; /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content */
+/* ============================================ */
+
+/**
+ * Prevent vertical alignment issues.
+ */
+
+img,
+embed,
+object,
+iframe {
+  vertical-align: bottom;
+}
+
+/* Forms */
+/* ============================================ */
+
+/**
+ * Reset form fields to make them styleable
+ */
+
+
+
+
+body {
+  margin: 0;
+}
+
+body .read_more {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  color: #333333;
+  text-decoration: underline;
+  font-size: 14px;
+}
+
+body p, body h1, body h2 {
+  line-height: normal;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+}
+
+header #header_section {
+  width: 100%;
+  background-color: #fff;
+  padding: 0 16px;
+  margin: 0 auto;
+}
+
+header #header_section #header_img {
+  max-width: 1170px;
+}
+
+header #header_section #header_img img {
+  font-size: 32px;
+  padding: 20px 16px 20px 0;
+}
+
+header nav {
+  background-color: #333333;
+  margin: 0;
+  width: 100%;
+}
+
+header #ul_nav {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px;
+  margin: 0 auto;
+  max-width: 1170px;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header #ul_nav li {
+  list-style-type: none;
+  font-size: 14px;
+  padding-right: 60px;
+}
+
+header #ul_nav li a {
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  height: 700px;
+}
+
+main h1 {
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  padding-top: 300px;
+  font-size: 70px;
+}
+
+main a {
+  color: #333333;
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+#footer {
+  width: 100%;
+  background-color: #f7f7f7;
+}
+
+#footer #footer_section {
+  max-width: 1170px;
+  padding: 50px 16px;
+  margin: 0px auto;
+}
+
+#footer #footer_section p {
+  font-size: 14px;
+}
+
+#footer #footer_section #about h1 {
+  font-size: 18px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+#footer #footer_section #about #about_text {
+  margin-bottom: 30px;
+}
+
+#footer #footer_section #about ul li {
+  padding-left: 1rem;
+  position: relative;
+  margin-bottom: 5px;
+}
+
+#footer #footer_section #about ul li::before {
+  position: absolute;
+  top: 50%;
+  left: 0px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  width: 0px;
+  height: 0px;
+  border: 0.3em solid transparent;
+  border-left: 0.4em solid black;
+  content: "";
+}
+
+#footer #footer_section #menu h1 {
+  font-size: 18px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+#footer #footer_section #menu p {
+  padding: 15px;
+}
+
+#footer #footer_section #twitter h1 {
+  font-size: 18px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+#footer #last_wrapper {
+  padding: 10px 0;
+}
+
+#footer #last_wrapper p {
+  font-size: 12px;
+  display: block;
+  text-align: center;
+}
+
+
+
+@media (max-width: 770px) {
+  img {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  #ul_nav li :nth-last-child() {
+    padding-right: 0;
+  }
+  
+  .footer_content {
+    margin-bottom: 30px;
+  }
+}
+
+@media (min-width: 771px) {
+  #footer_section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  #footer_section .footer_content {
+    width: 32%;
+  }
+}
